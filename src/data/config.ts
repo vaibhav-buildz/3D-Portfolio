@@ -1,45 +1,44 @@
 const config = {
-  title: "Naresh Khatri | Full-Stack Developer",
+  title: "Vaibhav Yadav | Creative Developer & Security Analyst",
   description: {
-    long: "Explore the portfolio of Naresh, a full-stack developer and creative technologist specializing in interactive web experiences, 3D animations, and innovative projects. Discover my latest work, including Coding Ducks, The Booking Desk, Ghostchat, and more. Let's build something amazing together!",
+    long: "Explore the portfolio of Vaibhav Yadav, a creative developer and security analyst specializing in immersive web experiences, 3D animations, and vulnerability research. Discover my latest work, including Storytelling Portfolio, Atrangi Portfolio, and more. Let's build something amazing together!",
     short:
-      "Discover the portfolio of Naresh, a full-stack developer creating interactive web experiences and innovative projects.",
+      "Discover the portfolio of Vaibhav Yadav, a creative developer and security analyst building immersive web experiences and hunting vulnerabilities.",
   },
   keywords: [
-    "Naresh",
+    "Vaibhav Yadav",
+    "vaibhav-buildz",
     "portfolio",
-    "full-stack developer",
-    "creative technologist",
+    "creative developer",
+    "security analyst",
     "web development",
     "3D animations",
     "interactive websites",
-    "Coding Ducks",
-    "The Booking Desk",
-    "Ghostchat",
-    "web design",
+    "Storytelling Portfolio",
+    "Atrangi Portfolio",
     "GSAP",
     "React",
     "Next.js",
     "Spline",
     "Framer Motion",
   ],
-  author: "Naresh Khatri",
-  email: "naresh.khatri2345@gmail.com",
-  site: "https://nareshkhatri.site",
+  author: "Vaibhav Yadav",
+  email: "vaibhav-buildz@users.noreply.github.com",
+  site: "https://vaibhavyadav.com",
 
   // for github stars button
-  githubUsername: "naresh-khatri",
-  githubRepo: "3d-portfolio",
+  githubUsername: "vaibhav-buildz",
+  githubRepo: "3D-Portfolio",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
-    twitter: "https://x.com/nothotchaddi",
-    linkedin: "https://www.linkedin.com/in/naresh-khatri/",
-    instagram: "https://www.instagram.com/hotchaddi",
-    facebook: "https://www.facebook.com/HotChaddi/",
-    github: "https://github.com/Naresh-Khatri",
+    twitter: "https://twitter.com/vanshh_00",
+    linkedin: "https://www.linkedin.com/in/vaibhav-yadav-80b891330",
+    instagram: "https://www.instagram.com/vanshh.01",
+    facebook: "https://facebook.com",
+    github: "https://github.com/vaibhav-buildz",
   },
 };
 export { config };
