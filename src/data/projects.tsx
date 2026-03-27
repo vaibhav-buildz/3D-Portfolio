@@ -316,5 +316,45 @@ const projects: Project[] = [
       );
     },
   },
+  {
+    id: "3d-portfolio",
+    category: "3D Portfolio",
+    title: "Personal 3D Portfolio",
+    src: "/assets/nav-link-previews/landing.png",
+    screenshots: [],
+    skills: {
+      frontend: [
+        PROJECT_SKILLS.ts,
+        PROJECT_SKILLS.react,
+        PROJECT_SKILLS.next,
+        PROJECT_SKILLS.tailwind,
+        PROJECT_SKILLS.spline,
+        PROJECT_SKILLS.framerMotion,
+      ],
+      backend: [],
+    },
+    live: "https://my-storytelling-portfolio.vercel.app/",
+    github: "https://github.com/vaibhav-buildz/3D-Portfolio",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono text-2xl text-center">
+            Next-Gen Interactive Resume
+          </TypographyP>
+          <TypographyP className="font-mono ">
+            A stunning 3D-driven portfolio built leveraging React, Next.js, and framer-motion to deliver a buttery-smooth scrolling experience. 
+            Features floating Spline 3D objects, advanced Glassmorphism UI, a dynamic storytelling timeline, and seamless routing.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <TypographyH3 className="my-4 mt-8">Dynamic Next.js App</TypographyH3>
+          <p className="font-mono mb-2">
+            The site utilizes a customized Aceternity UI and Shadcn components set, integrated with a serverless Resend API route to handle direct dynamic 
+            communications from the 3D rendered Contact form.
+          </p>
+          <SlideShow images={[`/assets/nav-link-previews/landing.png`]} />
+        </div>
+      );
+    },
+  },
 ];
 export default projects;
