@@ -345,7 +345,7 @@ export type Experience = {
   skills: SkillNames[];
 };
 
-export const EXPERIENCE: Experience[] = [
+export const TIMELINE: Experience[] = [
   {
     id: 1,
     startDate: "2026",
