@@ -82,9 +82,22 @@ export default ProjectsSection;
 const ProjectContents = ({ project }: { project: Project }) => {
   return (
     <>
-      <h4 className="text-lg md:text-2xl text-neutral-600 dark:text-neutral-100 font-bold text-center mb-8">
+      <h4 className="text-lg md:text-3xl text-neutral-600 dark:text-neutral-100 font-bold text-center mb-6">
         {project.title}
       </h4>
+      
+      {/* Project Hero Image */}
+      <div className="w-full rounded-2xl overflow-hidden mb-10 shadow-2xl relative border border-white/10">
+        <Image
+          src={project.src}
+          alt={project.title}
+          width={1200}
+          height={800}
+          className="w-full h-auto max-h-[60vh] object-cover object-top hover:scale-[1.02] transition-transform duration-700"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent pointer-events-none" />
+      </div>
+
       <div className="flex flex-col md:flex-row md:justify-evenly max-w-screen overflow-hidden md:overflow-visible">
         <div className="flex flex-row md:flex-col-reverse justify-center items-center gap-2 text-3xl mb-8">
           <p className="text-sm mt-1 text-neutral-600 dark:text-neutral-500">
